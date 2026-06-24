@@ -20,7 +20,7 @@
     </head>
     <body>
     <div class="container">
-    <p><a href="index.php">&larr; Retour aux départements</a></p>
+    <nav class="navbar"><p><a href="index.php">&larr; Retour aux départements</a></p></nav>
     <h1>Recherche d'employés</h1>
 
     <form method="get" action="search.php">

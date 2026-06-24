@@ -77,7 +77,7 @@
     </head>
     <body>
     <div class="container">
-    <p><a href="index.php">&larr; Retour aux départements</a></p>
+    <nav class="navbar"><p><a href="index.php">&larr; Retour aux départements</a></p></nav>
     <h1><?= $editing ? "Modifier l'employé $emp_no" : "Ajouter un employé" ?></h1>
 
     <?php if ($success) { ?>

@@ -19,7 +19,7 @@
     </head>
     <body>
     <div class="container">
-    <p><a href="javascript:history.back()">&larr; Retour</a></p>
+    <nav class="navbar"><p><a href="javascript:history.back()">&larr; Retour</a></p></nav>
 
     <?php if (!$employee) { ?>
         <h1>Employé introuvable</h1>
