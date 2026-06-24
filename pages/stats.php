@@ -12,7 +12,7 @@
     <p><a href="index.php">&larr; Retour aux départements</a></p>
     <h1>Statistiques par emploi</h1>
 
-    <table border="1">
+    <table border="1" class="table">
         <tr>
             <th>Emploi</th>
             <th>Hommes</th>

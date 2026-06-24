@@ -50,7 +50,7 @@
         <p style="color:red;"><?= htmlspecialchars($error) ?></p>
     <?php } ?>
 
-    <form method="post" action="dept_form.php<?= $editing ? '?dept_no=' . urlencode($dept_no) : '' ?>">
+    <form class="form-*" method="post" action="dept_form.php<?= $editing ? '?dept_no=' . urlencode($dept_no) : '' ?>">
         <input type="hidden" name="mode" value="<?= $editing ? 'edit' : 'add' ?>">
         <p>
             Numéro (4 car. max) :

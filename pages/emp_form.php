@@ -88,7 +88,7 @@
         <p style="color:red;"><?= htmlspecialchars($error) ?></p>
     <?php } ?>
 
-    <form method="post" action="emp_form.php<?= $editing ? '?emp_no=' . urlencode($emp_no) : '' ?>">
+    <form class="form-*" method="post" action="emp_form.php<?= $editing ? '?emp_no=' . urlencode($emp_no) : '' ?>">
         <input type="hidden" name="mode" value="<?= $editing ? 'edit' : 'add' ?>">
         <p>Numéro : <input type="number" name="emp_no" value="<?= htmlspecialchars($emp_no) ?>" <?= $editing ? 'readonly' : '' ?>></p>
         <p>Prénom : <input type="text" name="first_name" value="<?= htmlspecialchars($first_name) ?>"></p>

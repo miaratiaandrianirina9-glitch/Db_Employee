@@ -34,7 +34,7 @@
         <h1>Département introuvable</h1>
     <?php } else { ?>
         <h1>Employés du département <?= $department['dept_name'] ?> (<?= $department['dept_no'] ?>)</h1>
-        <table border="1">
+        <table border="1" class="table">
             <tr>
                 <th>N°</th>
                 <th>Prénom</th>
