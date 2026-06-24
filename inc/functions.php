@@ -349,3 +349,12 @@ function get_title_history($emp_no)
     $sql = sprintf($sql, $emp_no);
     return get_all_lines($sql);
 }
+function getTriage($trie){
+    if($trie=="DESC"){
+        return "ASC";
+    }
+    else if($trie=="ASC"){
+        return "DESC";
+    }
+    // return $trie;
+}
