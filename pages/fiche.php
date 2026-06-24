@@ -57,7 +57,7 @@
         </table>
 
         <h2>Historique des emplois</h2>
-        <table border="1">
+        <table border="1"  class="table">
             <tr>
                 <th>Poste</th>
                 <th>Du</th>

@@ -17,7 +17,7 @@
     <nav class="navbar"><p><a href="dept_form.php">➕ Ajouter un département</a></p></nav>
     <nav class="navbar"><p><a href="emp_form.php">➕ Ajouter un employé</a></p></nav>
     
- <table border="1">
+ <table border="1" class="table">
     <tr>
         <th>Department Number</th>
         <th>Department Name</th>

@@ -56,7 +56,7 @@
             <?= $current ? $current['dept_name'] . ' (depuis le ' . $current['from_date'] . ')' : 'aucun' ?>
         </p>
 
-        <form method="post" action="change_dept.php?emp_no=<?= urlencode($emp_no) ?>">
+        <form class="form-*" method="post" action="change_dept.php?emp_no=<?= urlencode($emp_no) ?>">
             <p>
                 Nouveau département :
                 <select name="dept_no">
