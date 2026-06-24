@@ -1,7 +1,5 @@
 # Maintenant Compris
 - l'opérateur `===`
-````
-````
 # Pas encore Compris
 - l'opérateur `??`
   ````php
