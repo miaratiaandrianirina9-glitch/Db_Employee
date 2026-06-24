@@ -15,7 +15,7 @@
 <html>
     <head>
         <title>Fiche employé</title>
-        <link rel="stylesheet" href="../design/theme-corporate/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
     <div class="container">

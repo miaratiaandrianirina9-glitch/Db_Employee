@@ -6,7 +6,7 @@
 <html>
     <head>
         <title>Les news</title>
-        <link rel="stylesheet" href="../design/theme-corporate/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
     <div class="container">
