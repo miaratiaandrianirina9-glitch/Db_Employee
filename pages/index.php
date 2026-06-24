@@ -6,6 +6,7 @@
 <html>
     <head>
         <title>Les news</title>
+        <link rel="stylesheet" href="../design/theme-minimal/style.css">
     </head>
     <body>
     <h1>Liste des départements</h1>

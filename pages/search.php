@@ -16,6 +16,7 @@
 <html>
     <head>
         <title>Recherche d'employés</title>
+        <link rel="stylesheet" href="../design/theme-minimal/style.css">
     </head>
     <body>
     <p><a href="index.php">&larr; Retour aux départements</a></p>
