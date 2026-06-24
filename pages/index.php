@@ -2,7 +2,7 @@
     include('../inc/functions.php');
     $departments = get_all_departments();
     if(isset($_GET['trie'])){
-        // $departments = trieDepartement($_GET['trie']);
+        $departments = trieDepartement($_GET['trie']);
         $trie=getTriage($_GET['trie']);
     }
     else{
