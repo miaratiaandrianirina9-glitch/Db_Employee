@@ -349,8 +349,6 @@ function get_title_history($emp_no)
     $sql = sprintf($sql, $emp_no);
     return get_all_lines($sql);
 }
-<<<<<<< HEAD
-
 function trieDepartement($triage){
     $sql = "SELECT d.dept_no,
                    d.dept_name,
@@ -368,7 +366,7 @@ function trieDepartement($triage){
             ORDER BY d.dept_no, departments.dept_name $triage";
 
     return get_all_lines($sql);
-=======
+}
 function getTriage($trie){
     if($trie=="DESC"){
         return "ASC";
@@ -377,5 +375,4 @@ function getTriage($trie){
         return "DESC";
     }
     // return $trie;
->>>>>>> b512b30165041b539afc52ab81826b90cb167afc
 }
