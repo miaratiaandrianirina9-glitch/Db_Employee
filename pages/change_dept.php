@@ -32,7 +32,7 @@
 <html>
     <head>
         <title>Changer de département</title>
-        <link rel="stylesheet" href="../design/theme-corporate/style.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
     <p><a href="fiche.php?emp_no=<?= urlencode($emp_no) ?>">&larr; Retour à la fiche</a></p>
