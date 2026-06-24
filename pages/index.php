@@ -1,7 +1,9 @@
 <?php
     include('../inc/functions.php');
     $departments = get_all_departments();
-
+    if(isset($trie)){
+        
+    }
 ?>		
 <html>
     <head>
@@ -33,6 +35,7 @@
             <td><?= $line['nb_employees'] ?></td>
             <td><a href="dept_form.php?dept_no=<?= urlencode($line['dept_no']) ?>">Éditer</a></td>
         </tr>
+
     <?php } ?>
     </table>
     </div>
