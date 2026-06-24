@@ -1,9 +1,18 @@
 <?php
     include('../inc/functions.php');
     $departments = get_all_departments();
+
     if(isset($trie)){
         
     }
+    if(isset($_GET['trie'])){
+        $departments = trieDepartement($_GET['trie']);
+        $trie=getTriage($_GET['trie']);
+    }
+    else{
+        $trie="ASC";
+    }
+
 ?>		
 <html>
     <head>
@@ -38,6 +47,7 @@
 
     <?php } ?>
     </table>
+    <button class="btn"><p><a href="index.php?trie=<?php echo $trie?>">Trier les departements</a></p></button>
     </div>
     </body>
 </html>
