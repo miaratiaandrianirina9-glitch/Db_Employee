@@ -11,12 +11,12 @@
     <body>
     <div class="container">
     <h1>Liste des départements</h1>
-    <nav class="navbar">
-        <p><a href="search.php">🔍 Rechercher un employé</a></p>
-        <p><a href="stats.php">📊 Statistiques par emploi</a></p>
-        <p><a href="dept_form.php">➕ Ajouter un département</a></p>
-        <p><a href="emp_form.php">➕ Ajouter un employé</a></p>
-    </nav>
+    
+    <nav class="navbar"><p><a href="search.php">🔍 Rechercher un employé</a></p></nav>
+    <nav class="navbar"><p><a href="stats.php">📊 Statistiques par emploi</a></p></nav>
+    <nav class="navbar"><p><a href="dept_form.php">➕ Ajouter un département</a></p></nav>
+    <nav class="navbar"><p><a href="emp_form.php">➕ Ajouter un employé</a></p></nav>
+    
  <table border="1">
     <tr>
         <th>Department Number</th>
