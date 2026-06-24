@@ -32,6 +32,7 @@
         <link rel="stylesheet" href="../design/theme-corporate/style.css">
     </head>
     <body>
+    <div class="container">
     <p><a href="fiche.php?emp_no=<?= urlencode($emp_no) ?>">&larr; Retour à la fiche</a></p>
 
     <?php if (!$employee) { ?>
@@ -59,5 +60,6 @@
             <p><input type="submit" value="Devenir manager"></p>
         </form>
     <?php } ?>
+    </div>
     </body>
 </html>

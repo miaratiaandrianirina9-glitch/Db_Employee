@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="../design/theme-corporate/style.css">
     </head>
     <body>
+    <div class="container">
     <p><a href="index.php">&larr; Retour aux départements</a></p>
     <h1>Statistiques par emploi</h1>
 
@@ -29,5 +30,6 @@
             </tr>
         <?php } ?>
     </table>
+    </div>
     </body>
 </html>

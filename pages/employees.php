@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="../design/theme-corporate/style.css">
     </head>
     <body>
+    <div class="container">
     <p><a href="index.php">&larr; Retour aux départements</a></p>
 
     <?php if (!$department) { ?>
@@ -64,5 +65,6 @@
         </p>
         <p><?= $total ?> employé(s) au total dans ce département.</p>
     <?php } ?>
+    </div>
     </body>
 </html>

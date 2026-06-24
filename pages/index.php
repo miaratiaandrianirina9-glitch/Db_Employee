@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="../design/theme-corporate/style.css">
     </head>
     <body>
+    <div class="container">
     <h1>Liste des départements</h1>
     <p><a href="search.php">🔍 Rechercher un employé</a></p>
     <p><a href="stats.php">📊 Statistiques par emploi</a></p>
@@ -32,6 +33,6 @@
         </tr>
     <?php } ?>
     </table>
-
+    </div>
     </body>
 </html>

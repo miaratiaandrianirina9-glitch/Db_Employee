@@ -76,6 +76,7 @@
         <link rel="stylesheet" href="../design/theme-corporate/style.css">
     </head>
     <body>
+    <div class="container">
     <p><a href="index.php">&larr; Retour aux départements</a></p>
     <h1><?= $editing ? "Modifier l'employé $emp_no" : "Ajouter un employé" ?></h1>
 
@@ -118,5 +119,6 @@
         </p>
         <p><input type="submit" value="<?= $editing ? 'Modifier' : 'Ajouter' ?>"></p>
     </form>
+    </div>
     </body>
 </html>

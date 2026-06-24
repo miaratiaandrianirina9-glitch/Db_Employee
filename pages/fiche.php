@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="../design/theme-corporate/style.css">
     </head>
     <body>
+    <div class="container">
     <p><a href="javascript:history.back()">&larr; Retour</a></p>
 
     <?php if (!$employee) { ?>
@@ -87,5 +88,6 @@
             <?php } ?>
         </table>
     <?php } ?>
+    </div>
     </body>
 </html>

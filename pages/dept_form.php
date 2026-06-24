@@ -39,6 +39,7 @@
         <link rel="stylesheet" href="../design/theme-corporate/style.css">
     </head>
     <body>
+    <div class="container">
     <p><a href="index.php">&larr; Retour aux départements</a></p>
     <h1><?= $editing ? "Modifier le département $dept_no" : "Ajouter un département" ?></h1>
 
@@ -60,5 +61,6 @@
         <p>Nom : <input type="text" name="dept_name" value="<?= htmlspecialchars($dept_name) ?>"></p>
         <p><input type="submit" value="<?= $editing ? 'Modifier' : 'Ajouter' ?>"></p>
     </form>
+    </div>
     </body>
 </html>
