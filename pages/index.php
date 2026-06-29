@@ -47,7 +47,7 @@
 
     <?php } ?>
     </table>
-    <button class="btn"><p><a href="index.php?trie=<?php echo $trie?>">Trier les departements</a></p></button>
+    <button class="btn"><nav class="navbar"><p><a href="index.php?trie=<?php echo $trie?>">Trier les departements</a></p></nav></button>
     </div>
     </body>
 </html>
